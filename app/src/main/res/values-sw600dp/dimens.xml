@@ -1,0 +1,7 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margin_top">40dp</dimen>
+    <dimen name="margin_player_top">40dp</dimen>
+    <dimen name="margin_player_bottom">25dp</dimen>
+    <dimen name="margin_player_bottom_big">40dp</dimen>
+</resources>

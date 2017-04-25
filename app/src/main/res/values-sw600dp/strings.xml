@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FinalProjectPS2</string>
+    <string name="game">Tennis Game - Just4Fun\nVersion</string>
+    <string name="game_ver">Card app\n V1.0</string>
+    <string name="player_a">PLAYER A</string>
+    <string name="player_a_score">0</string>
+    <string name="player_a_one">+ one</string>
+    <string name="player_a_two">+ two</string>
+    <string name="player_a_minus">- laziness</string>
+    <string name="player_b">PLAYER B</string>
+    <string name="player_b_score">0</string>
+    <string name="player_b_one">+ one</string>
+    <string name="player_b_two">+ two</string>
+    <string name="player_b_minus">- laziness</string>
+    <string name="reset">NEW GAME</string>
+</resources>

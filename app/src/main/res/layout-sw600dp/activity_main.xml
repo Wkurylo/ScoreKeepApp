@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tenis4"
+    tools:context="com.example.wojtekkurylo.finalprojectps2.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/main_body">
+
+        <Button
+            android:id="@+id/game_name"
+            style="@style/button_app_name"
+            android:layout_width="300dp"
+            android:layout_height="60dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/main_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/b_one"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/player5p70k"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:id="@+id/playerA"
+                    style="@style/text_view_player_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/scorePlayerA"
+                    style="@style/text_view_score_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/playerA" />
+
+                <Button
+                    android:id="@+id/playerAmatch"
+                    style="@style/button_a_one"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/scorePlayerA" />
+
+                <Button
+                    android:id="@+id/playerAserv"
+                    style="@style/button_a_two"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/playerAmatch" />
+
+                <Button
+                    style="@style/button_a_minus"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/playerAserv" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/playerBCard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:cardBackgroundColor="@color/b_one"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/playerB"
+                    style="@style/text_view_player_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/scorePlayerB"
+                    style="@style/text_view_score_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/playerB" />
+
+                <Button
+                    android:id="@+id/playerBmatch"
+                    style="@style/button_b_one"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/scorePlayerB" />
+
+                <Button
+                    android:id="@+id/playerBserv"
+                    style="@style/button_b_two"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/playerBmatch" />
+
+                <Button
+                    style="@style/button_b_minus"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/playerBserv" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/card_ver"
+        style="@style/button_card_version"
+        android:layout_width="130dp"
+        android:layout_height="60dp" />
+
+    <Button
+        style="@style/button_reset"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_above="@id/card_ver" />
+
+</RelativeLayout>
+
+    <!--
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/main_body"
+            app:cardBackgroundColor="@color/b_two"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp"
+            app:contentPadding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    style="@style/button_reset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </Button>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    -->

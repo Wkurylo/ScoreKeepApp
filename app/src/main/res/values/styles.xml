@@ -1,0 +1,138 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Buttons out of card app -->
+
+    <style name="button_app_name" parent="AppTheme">
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@drawable/button_app_name</item>
+        <item name="android:text">@string/game</item>
+        <item name="android:textColor">@color/t_two</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="button_card_version" parent="AppTheme">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/button_app_ver</item>
+        <item name="android:text">@string/game_ver</item>
+        <item name="android:textColor">@color/t_one</item>
+    </style>
+
+    <style name="button_reset" parent="AppTheme">
+        <item name="android:background">@drawable/button_reset</item>
+        <item name="android:text">@string/reset</item>
+        <item name="android:textColor">@color/t_two</item>
+        <item name="android:onClick">reset</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- P L A Y E R     A  /  L E F T  -->
+
+    <style name="text_view_player_a" parent="AppTheme">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/margin_player_top</item>
+        <item name="android:text">@string/player_a</item>
+        <item name="android:textColor">@color/t_two</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_view_score_a" parent="AppTheme">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/margin_player_top</item>
+        <item name="android:layout_marginBottom">@dimen/margin_player_bottom_big</item>
+        <item name="android:text">@string/player_a_score</item>
+        <item name="android:textColor">@color/t_two</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="button_a_one" parent="AppTheme">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/margin_player_bottom</item>
+        <item name="android:background">@drawable/button_add_one</item>
+        <item name="android:onClick">addOneToPlayerA</item>
+        <item name="android:text">@string/player_a_one</item>
+        <item name="android:textColor">@color/t_two</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="button_a_two" parent="AppTheme">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/margin_player_bottom</item>
+        <item name="android:background">@drawable/button_add_two</item>
+        <item name="android:onClick">addTwoToPlayerA</item>
+        <item name="android:text">@string/player_a_two</item>
+        <item name="android:textColor">@color/t_two</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="button_a_minus" parent="AppTheme">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/margin_player_bottom</item>
+        <item name="android:background">@drawable/button_add_three</item>
+        <item name="android:onClick">minusOneFromPlayerA</item>
+        <item name="android:text">@string/player_a_minus</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- P L A Y E R     B  /  R I G H T  -->
+
+    <style name="text_view_player_b" parent="AppTheme">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/margin_player_top</item>
+        <item name="android:text">@string/player_b</item>
+        <item name="android:textColor">@color/t_two</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_view_score_b" parent="AppTheme">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">@dimen/margin_player_top</item>
+        <item name="android:layout_marginBottom">@dimen/margin_player_bottom_big</item>
+        <item name="android:text">@string/player_b_score</item>
+        <item name="android:textColor">@color/t_two</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="button_b_one" parent="AppTheme">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/margin_player_bottom</item>
+        <item name="android:background">@drawable/button_add_one</item>
+        <item name="android:onClick">addOneToPlayerB</item>
+        <item name="android:text">@string/player_b_one</item>
+        <item name="android:textColor">@color/t_two</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="button_b_two" parent="AppTheme">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/margin_player_bottom</item>
+        <item name="android:background">@drawable/button_add_two</item>
+        <item name="android:onClick">addTwoToPlayerB</item>
+        <item name="android:text">@string/player_b_two</item>
+        <item name="android:textColor">@color/t_two</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="button_b_minus" parent="AppTheme">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/margin_player_bottom</item>
+        <item name="android:background">@drawable/button_add_three</item>
+        <item name="android:onClick">minusOneFromPlayerB</item>
+        <item name="android:text">@string/player_b_minus</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>
